@@ -1,0 +1,27 @@
+{
+  "name": "mysql_nodejs",
+  "version": "1.0.0",
+  "description": "test_backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arrasyidff/MySQL_NodeJs.git"
+  },
+  "author": "fadel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arrasyidff/MySQL_NodeJs/issues"
+  },
+  "homepage": "https://github.com/Arrasyidff/MySQL_NodeJs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}
