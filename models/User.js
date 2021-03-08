@@ -1,5 +1,8 @@
 const con = require("../config/mysql");
+// require con from config
 
+// I Make the several methods for CRUD and I using Promise for call the value
+//   createUser, updateOne, and deleteOne need a parameter
 class UserModel {
   static getUsers() {
     return new Promise((resolve, reject) => {

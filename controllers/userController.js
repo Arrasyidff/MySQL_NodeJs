@@ -1,4 +1,5 @@
 const UserModel = require("../models/User");
+// require UserModel from models to get a methods
 
 class UserController {
   static getAllUser(req, res) {

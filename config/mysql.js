@@ -1,5 +1,7 @@
 const mysql = require("mysql");
+// require the mysql dependency
 
+// make var con for connect to mysql server 
 const con = mysql.createConnection({
     host: "localhost",
     user: "root",
@@ -7,6 +9,7 @@ const con = mysql.createConnection({
     database: "Al_Qolam"
 });
 
+// testing for connect in server
 // con.connect((err) => {
 //     if (err) console.log(err);
 //     else console.log("mysql connected");
